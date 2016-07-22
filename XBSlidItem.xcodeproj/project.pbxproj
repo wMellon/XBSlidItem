@@ -20,6 +20,7 @@
 		F130B0361D4210CB001AA298 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B0311D4210CB001AA298 /* image4.jpg */; };
 		F130B0371D4210CB001AA298 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B0321D4210CB001AA298 /* image5.jpg */; };
 		F130B0391D421217001AA298 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F130B0381D421217001AA298 /* Default-568h@2x.png */; };
+		F130B03B1D42143A001AA298 /* XBSlidItem.gif in Resources */ = {isa = PBXBuildFile; fileRef = F130B03A1D42143A001AA298 /* XBSlidItem.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F130B0311D4210CB001AA298 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
 		F130B0321D4210CB001AA298 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
 		F130B0381D421217001AA298 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F130B03A1D42143A001AA298 /* XBSlidItem.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XBSlidItem.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		F130B0091D4205DA001AA298 /* XBSlidItem */ = {
 			isa = PBXGroup;
 			children = (
+				F130B03A1D42143A001AA298 /* XBSlidItem.gif */,
 				F130B02B1D420F0F001AA298 /* image */,
 				F130B0261D4208F2001AA298 /* XBSlidItemTypeCell.h */,
 				F130B0271D4208F2001AA298 /* XBSlidItemTypeCell.m */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F130B0361D4210CB001AA298 /* image4.jpg in Resources */,
+				F130B03B1D42143A001AA298 /* XBSlidItem.gif in Resources */,
 				F130B0371D4210CB001AA298 /* image5.jpg in Resources */,
 				F130B0391D421217001AA298 /* Default-568h@2x.png in Resources */,
 				F130B02A1D4208F2001AA298 /* XBSlidItemTypeCell.xib in Resources */,
