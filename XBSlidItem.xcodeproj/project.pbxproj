@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F130B00C1D4205DA001AA298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F130B00B1D4205DA001AA298 /* main.m */; };
+		F130B00F1D4205DA001AA298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F130B00E1D4205DA001AA298 /* AppDelegate.m */; };
+		F130B0171D4205DA001AA298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F130B0161D4205DA001AA298 /* Assets.xcassets */; };
+		F130B0241D42065C001AA298 /* XBSlidItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F130B0211D42065C001AA298 /* XBSlidItemViewController.m */; };
+		F130B0251D42065C001AA298 /* XBSlidItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F130B0231D42065C001AA298 /* XBSlidItemViewController.xib */; };
+		F130B0291D4208F2001AA298 /* XBSlidItemTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F130B0271D4208F2001AA298 /* XBSlidItemTypeCell.m */; };
+		F130B02A1D4208F2001AA298 /* XBSlidItemTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F130B0281D4208F2001AA298 /* XBSlidItemTypeCell.xib */; };
+		F130B0331D4210CB001AA298 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B02E1D4210CB001AA298 /* image1.jpg */; };
+		F130B0341D4210CB001AA298 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B02F1D4210CB001AA298 /* image2.jpg */; };
+		F130B0351D4210CB001AA298 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B0301D4210CB001AA298 /* image3.jpg */; };
+		F130B0361D4210CB001AA298 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B0311D4210CB001AA298 /* image4.jpg */; };
+		F130B0371D4210CB001AA298 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F130B0321D4210CB001AA298 /* image5.jpg */; };
+		F130B0391D421217001AA298 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F130B0381D421217001AA298 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F130B0071D4205D9001AA298 /* XBSlidItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBSlidItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130B00B1D4205DA001AA298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F130B00D1D4205DA001AA298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F130B00E1D4205DA001AA298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F130B0161D4205DA001AA298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F130B01B1D4205DA001AA298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130B0211D42065C001AA298 /* XBSlidItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSlidItemViewController.m; sourceTree = "<group>"; };
+		F130B0221D42065C001AA298 /* XBSlidItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSlidItemViewController.h; sourceTree = "<group>"; };
+		F130B0231D42065C001AA298 /* XBSlidItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBSlidItemViewController.xib; sourceTree = "<group>"; };
+		F130B0261D4208F2001AA298 /* XBSlidItemTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSlidItemTypeCell.h; sourceTree = "<group>"; };
+		F130B0271D4208F2001AA298 /* XBSlidItemTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSlidItemTypeCell.m; sourceTree = "<group>"; };
+		F130B0281D4208F2001AA298 /* XBSlidItemTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBSlidItemTypeCell.xib; sourceTree = "<group>"; };
+		F130B02E1D4210CB001AA298 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		F130B02F1D4210CB001AA298 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		F130B0301D4210CB001AA298 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		F130B0311D4210CB001AA298 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		F130B0321D4210CB001AA298 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		F130B0381D421217001AA298 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F130B0041D4205D9001AA298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F130AFFE1D4205D9001AA298 = {
+			isa = PBXGroup;
+			children = (
+				F130B0091D4205DA001AA298 /* XBSlidItem */,
+				F130B0081D4205D9001AA298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F130B0081D4205D9001AA298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F130B0071D4205D9001AA298 /* XBSlidItem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F130B0091D4205DA001AA298 /* XBSlidItem */ = {
+			isa = PBXGroup;
+			children = (
+				F130B02B1D420F0F001AA298 /* image */,
+				F130B0261D4208F2001AA298 /* XBSlidItemTypeCell.h */,
+				F130B0271D4208F2001AA298 /* XBSlidItemTypeCell.m */,
+				F130B0281D4208F2001AA298 /* XBSlidItemTypeCell.xib */,
+				F130B0221D42065C001AA298 /* XBSlidItemViewController.h */,
+				F130B0211D42065C001AA298 /* XBSlidItemViewController.m */,
+				F130B0231D42065C001AA298 /* XBSlidItemViewController.xib */,
+				F130B00D1D4205DA001AA298 /* AppDelegate.h */,
+				F130B00E1D4205DA001AA298 /* AppDelegate.m */,
+				F130B0161D4205DA001AA298 /* Assets.xcassets */,
+				F130B01B1D4205DA001AA298 /* Info.plist */,
+				F130B00A1D4205DA001AA298 /* Supporting Files */,
+			);
+			path = XBSlidItem;
+			sourceTree = "<group>";
+		};
+		F130B00A1D4205DA001AA298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F130B00B1D4205DA001AA298 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F130B02B1D420F0F001AA298 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F130B0381D421217001AA298 /* Default-568h@2x.png */,
+				F130B02E1D4210CB001AA298 /* image1.jpg */,
+				F130B02F1D4210CB001AA298 /* image2.jpg */,
+				F130B0301D4210CB001AA298 /* image3.jpg */,
+				F130B0311D4210CB001AA298 /* image4.jpg */,
+				F130B0321D4210CB001AA298 /* image5.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F130B0061D4205D9001AA298 /* XBSlidItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130B01E1D4205DA001AA298 /* Build configuration list for PBXNativeTarget "XBSlidItem" */;
+			buildPhases = (
+				F130B0031D4205D9001AA298 /* Sources */,
+				F130B0041D4205D9001AA298 /* Frameworks */,
+				F130B0051D4205D9001AA298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBSlidItem;
+			productName = XBSlidItem;
+			productReference = F130B0071D4205D9001AA298 /* XBSlidItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F130AFFF1D4205D9001AA298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xxb;
+				TargetAttributes = {
+					F130B0061D4205D9001AA298 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F130B0021D4205D9001AA298 /* Build configuration list for PBXProject "XBSlidItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F130AFFE1D4205D9001AA298;
+			productRefGroup = F130B0081D4205D9001AA298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F130B0061D4205D9001AA298 /* XBSlidItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F130B0051D4205D9001AA298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130B0361D4210CB001AA298 /* image4.jpg in Resources */,
+				F130B0371D4210CB001AA298 /* image5.jpg in Resources */,
+				F130B0391D421217001AA298 /* Default-568h@2x.png in Resources */,
+				F130B02A1D4208F2001AA298 /* XBSlidItemTypeCell.xib in Resources */,
+				F130B0331D4210CB001AA298 /* image1.jpg in Resources */,
+				F130B0251D42065C001AA298 /* XBSlidItemViewController.xib in Resources */,
+				F130B0341D4210CB001AA298 /* image2.jpg in Resources */,
+				F130B0351D4210CB001AA298 /* image3.jpg in Resources */,
+				F130B0171D4205DA001AA298 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F130B0031D4205D9001AA298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130B00F1D4205DA001AA298 /* AppDelegate.m in Sources */,
+				F130B0291D4208F2001AA298 /* XBSlidItemTypeCell.m in Sources */,
+				F130B00C1D4205DA001AA298 /* main.m in Sources */,
+				F130B0241D42065C001AA298 /* XBSlidItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F130B01C1D4205DA001AA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F130B01D1D4205DA001AA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F130B01F1D4205DA001AA298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBSlidItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watermellon.XBSlidItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F130B0201D4205DA001AA298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBSlidItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watermellon.XBSlidItem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F130B0021D4205D9001AA298 /* Build configuration list for PBXProject "XBSlidItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130B01C1D4205DA001AA298 /* Debug */,
+				F130B01D1D4205DA001AA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130B01E1D4205DA001AA298 /* Build configuration list for PBXNativeTarget "XBSlidItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130B01F1D4205DA001AA298 /* Debug */,
+				F130B0201D4205DA001AA298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F130AFFF1D4205D9001AA298 /* Project object */;
+}

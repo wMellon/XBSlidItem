@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="122" id="KGk-i7-Jjw" customClass="XBSlidItemTypeCell">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XWR-4U-LZx">
+                        <rect key="frame" x="131" y="30" width="227" height="62"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJN-AP-YZm" userLabel="zhLabel">
+                                <rect key="frame" x="0.0" y="0.0" width="227" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.5725490196078431" green="0.5725490196078431" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEA-GO-M9A" userLabel="enLabel">
+                                <rect key="frame" x="0.0" y="44" width="227" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.5725490196078431" green="0.5725490196078431" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EJN-AP-YZm" firstAttribute="top" secondItem="XWR-4U-LZx" secondAttribute="top" id="2ea-fp-Qa5"/>
+                            <constraint firstAttribute="trailing" secondItem="EJN-AP-YZm" secondAttribute="trailing" id="2t2-Ed-sHN"/>
+                            <constraint firstItem="iEA-GO-M9A" firstAttribute="leading" secondItem="XWR-4U-LZx" secondAttribute="leading" id="ELu-bf-tUP"/>
+                            <constraint firstItem="iEA-GO-M9A" firstAttribute="top" secondItem="EJN-AP-YZm" secondAttribute="bottom" constant="10" id="rPf-Jl-4HJ"/>
+                            <constraint firstItem="EJN-AP-YZm" firstAttribute="leading" secondItem="XWR-4U-LZx" secondAttribute="leading" id="v75-po-OcU"/>
+                            <constraint firstAttribute="bottom" secondItem="iEA-GO-M9A" secondAttribute="bottom" id="xZ9-8G-Hqn"/>
+                            <constraint firstAttribute="trailing" secondItem="iEA-GO-M9A" secondAttribute="trailing" id="y93-zx-eYL"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qjh-Cy-Eq4">
+                        <rect key="frame" x="61" y="36" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="2j9-ZL-rck"/>
+                            <constraint firstAttribute="height" constant="50" id="RCz-Ya-Bjy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="XWR-4U-LZx" firstAttribute="leading" secondItem="qjh-Cy-Eq4" secondAttribute="trailing" constant="20" id="3iI-Zd-Cqm"/>
+                    <constraint firstItem="XWR-4U-LZx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6ih-ho-g2S"/>
+                    <constraint firstItem="qjh-Cy-Eq4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="SuX-PI-iHz"/>
+                    <constraint firstItem="XWR-4U-LZx" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="62:100" id="hOH-m6-2If"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XWR-4U-LZx" secondAttribute="trailing" id="lzP-dB-j0n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="enLabel" destination="iEA-GO-M9A" id="wmw-Lg-FN4"/>
+                <outlet property="imageView" destination="qjh-Cy-Eq4" id="DI6-rB-dIM"/>
+                <outlet property="zhLabel" destination="EJN-AP-YZm" id="dlV-be-Cw5"/>
+            </connections>
+            <point key="canvasLocation" x="357" y="230"/>
+        </tableViewCell>
+    </objects>
+</document>
